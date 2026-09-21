@@ -1,0 +1,19 @@
+{
+  "name": "mikhail-test-token-launcher",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Safe TON Testnet Jetton launcher for Mikhail Test Token (MTT).",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "launch": "tsx scripts/launch.ts"
+  },
+  "dependencies": {
+    "@ton/ton": "^15.0.0",
+    "@ton/crypto": "^3.3.0",
+    "@tonconnect/ui": "^2.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
